@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.examSystem.TranslationApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.843 s <<< FAILURE! - in com.examSystem.TranslationApplicationTests
+contextLoads(com.examSystem.TranslationApplicationTests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController' defined in file [E:\examsystem\target\classes\com\examSystem\controller\LoginController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.http.HttpServletRequest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.http.HttpServletRequest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+

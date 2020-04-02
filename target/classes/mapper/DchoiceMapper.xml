@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.examSystem.dao.DchoiceMapper">
+  <resultMap id="BaseResultMap" type="com.examSystem.entity.Dchoice">
+    <id column="dc_id" jdbcType="INTEGER" property="dcId" />
+    <result column="dc__content" jdbcType="VARCHAR" property="dcContent" />
+    <result column="dc_a" jdbcType="VARCHAR" property="dcA" />
+    <result column="dc_b" jdbcType="VARCHAR" property="dcB" />
+    <result column="dc_c" jdbcType="VARCHAR" property="dcC" />
+    <result column="dc_d" jdbcType="VARCHAR" property="dcD" />
+    <result column="dc_correct" jdbcType="CHAR" property="dcCorrect" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from difficultychoice
+    where dc_id = #{dcId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.examSystem.entity.Dchoice">
+    insert into difficultychoice (dc_id, dc__content, dc_a,
+      dc_b, dc_c, dc_d, dc_correct
+      )
+    values (#{dcId,jdbcType=INTEGER}, #{dcContent,jdbcType=VARCHAR}, #{dcA,jdbcType=VARCHAR}, 
+      #{dcB,jdbcType=VARCHAR}, #{dcC,jdbcType=VARCHAR}, #{dcD,jdbcType=VARCHAR}, #{dcCorrect,jdbcType=CHAR}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.examSystem.entity.Dchoice">
+    update difficultychoice
+    set dc__content = #{dcContent,jdbcType=VARCHAR},
+      dc_a = #{dcA,jdbcType=VARCHAR},
+      dc_b = #{dcB,jdbcType=VARCHAR},
+      dc_c = #{dcC,jdbcType=VARCHAR},
+      dc_d = #{dcD,jdbcType=VARCHAR},
+      dc_correct = #{dcCorrect,jdbcType=CHAR}
+    where dc_id = #{dcId,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select dc_id, dc__content, dc_a, dc_b, dc_c, dc_d, dc_correct
+    from difficultychoice
+    where dc_id = #{dcId,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select dc_id, dc__content, dc_a, dc_b, dc_c, dc_d, dc_correct
+    from difficultychoice
+  </select>
+</mapper>

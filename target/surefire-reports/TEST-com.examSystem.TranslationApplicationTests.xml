@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.examSystem.TranslationApplicationTests" time="3.843" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\examsystem\target\test-classes;E:\examsystem\target\classes;D:\apache-maven-3.6.1\mavenLocal\org\junit\jupiter\junit-jupiter-api\5.3.2\junit-jupiter-api-5.3.2.jar;D:\apache-maven-3.6.1\mavenLocal\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\apache-maven-3.6.1\mavenLocal\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\junit\platform\junit-platform-commons\1.3.2\junit-platform-commons-1.3.2.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-test\5.1.5.RELEASE\spring-test-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-oxm\5.1.5.RELEASE\spring-oxm-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-beans\5.1.5.RELEASE\spring-beans-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-tx\5.1.5.RELEASE\spring-tx-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-jdbc\5.1.5.RELEASE\spring-jdbc-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-aop\5.1.5.RELEASE\spring-aop-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-context\5.1.5.RELEASE\spring-context-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-context-support\5.1.5.RELEASE\spring-context-support-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-expression\5.1.5.RELEASE\spring-expression-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-orm\5.1.5.RELEASE\spring-orm-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-web\5.1.5.RELEASE\spring-web-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-webmvc\5.1.5.RELEASE\spring-webmvc-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;D:\apache-maven-3.6.1\mavenLocal\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;D:\apache-maven-3.6.1\mavenLocal\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar;D:\apache-maven-3.6.1\mavenLocal\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\apache-maven-3.6.1\mavenLocal\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;D:\apache-maven-3.6.1\mavenLocal\jstl\jstl\1.2\jstl-1.2.jar;D:\apache-maven-3.6.1\mavenLocal\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\apache-maven-3.6.1\mavenLocal\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\apache-maven-3.6.1\mavenLocal\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\apache-maven-3.6.1\mavenLocal\com\zaxxer\HikariCP\3.3.1\HikariCP-3.3.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-all\4.6.0\hutool-all-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-core\4.6.0\hutool-core-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-aop\4.6.0\hutool-aop-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-bloomFilter\4.6.0\hutool-bloomFilter-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-cache\4.6.0\hutool-cache-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-crypto\4.6.0\hutool-crypto-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-db\4.6.0\hutool-db-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-dfa\4.6.0\hutool-dfa-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-extra\4.6.0\hutool-extra-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-http\4.6.0\hutool-http-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-log\4.6.0\hutool-log-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-script\4.6.0\hutool-script-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-setting\4.6.0\hutool-setting-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-system\4.6.0\hutool-system-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-cron\4.6.0\hutool-cron-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-json\4.6.0\hutool-json-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-poi\4.6.0\hutool-poi-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-captcha\4.6.0\hutool-captcha-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-socket\4.6.0\hutool-socket-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\org\mybatis\generator\mybatis-generator-core\1.3.5\mybatis-generator-core-1.3.5.jar;D:\apache-maven-3.6.1\mavenLocal\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;D:\apache-maven-3.6.1\mavenLocal\junit\junit\4.12\junit-4.12.jar;D:\apache-maven-3.6.1\mavenLocal\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\apache-maven-3.6.1\mavenLocal\net\sargue\java-time-jsptags\1.1.4\java-time-jsptags-1.1.4.jar;D:\apache-maven-3.6.1\mavenLocal\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\apache\tomcat\annotations-api\6.0.14\annotations-api-6.0.14.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\JetBrains\Toolbox\apps\IDEA-U\ch-0\192.5728.98\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire13009795883058905879\surefirebooter15662224151703748238.jar C:\Users\ASUS\AppData\Local\Temp\surefire13009795883058905879 2020-01-30T17-24-56_820-jvmRun1 surefire11670873237844669956tmp surefire_015235744540528825709tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\examsystem\target\test-classes;E:\examsystem\target\classes;D:\apache-maven-3.6.1\mavenLocal\org\junit\jupiter\junit-jupiter-api\5.3.2\junit-jupiter-api-5.3.2.jar;D:\apache-maven-3.6.1\mavenLocal\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;D:\apache-maven-3.6.1\mavenLocal\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\junit\platform\junit-platform-commons\1.3.2\junit-platform-commons-1.3.2.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-test\5.1.5.RELEASE\spring-test-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-core\5.1.5.RELEASE\spring-core-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-jcl\5.1.5.RELEASE\spring-jcl-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-oxm\5.1.5.RELEASE\spring-oxm-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-beans\5.1.5.RELEASE\spring-beans-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-tx\5.1.5.RELEASE\spring-tx-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-jdbc\5.1.5.RELEASE\spring-jdbc-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-aop\5.1.5.RELEASE\spring-aop-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-context\5.1.5.RELEASE\spring-context-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-context-support\5.1.5.RELEASE\spring-context-support-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-expression\5.1.5.RELEASE\spring-expression-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-orm\5.1.5.RELEASE\spring-orm-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-web\5.1.5.RELEASE\spring-web-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\springframework\spring-webmvc\5.1.5.RELEASE\spring-webmvc-5.1.5.RELEASE.jar;D:\apache-maven-3.6.1\mavenLocal\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;D:\apache-maven-3.6.1\mavenLocal\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;D:\apache-maven-3.6.1\mavenLocal\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar;D:\apache-maven-3.6.1\mavenLocal\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;D:\apache-maven-3.6.1\mavenLocal\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;D:\apache-maven-3.6.1\mavenLocal\jstl\jstl\1.2\jstl-1.2.jar;D:\apache-maven-3.6.1\mavenLocal\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\apache-maven-3.6.1\mavenLocal\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\apache-maven-3.6.1\mavenLocal\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\apache-maven-3.6.1\mavenLocal\com\zaxxer\HikariCP\3.3.1\HikariCP-3.3.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\projectlombok\lombok\1.18.8\lombok-1.18.8.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-all\4.6.0\hutool-all-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-core\4.6.0\hutool-core-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-aop\4.6.0\hutool-aop-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-bloomFilter\4.6.0\hutool-bloomFilter-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-cache\4.6.0\hutool-cache-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-crypto\4.6.0\hutool-crypto-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-db\4.6.0\hutool-db-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-dfa\4.6.0\hutool-dfa-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-extra\4.6.0\hutool-extra-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-http\4.6.0\hutool-http-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-log\4.6.0\hutool-log-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-script\4.6.0\hutool-script-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-setting\4.6.0\hutool-setting-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-system\4.6.0\hutool-system-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-cron\4.6.0\hutool-cron-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-json\4.6.0\hutool-json-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-poi\4.6.0\hutool-poi-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-captcha\4.6.0\hutool-captcha-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\cn\hutool\hutool-socket\4.6.0\hutool-socket-4.6.0.jar;D:\apache-maven-3.6.1\mavenLocal\org\mybatis\generator\mybatis-generator-core\1.3.5\mybatis-generator-core-1.3.5.jar;D:\apache-maven-3.6.1\mavenLocal\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;D:\apache-maven-3.6.1\mavenLocal\junit\junit\4.12\junit-4.12.jar;D:\apache-maven-3.6.1\mavenLocal\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\apache-maven-3.6.1\mavenLocal\net\sargue\java-time-jsptags\1.1.4\java-time-jsptags-1.1.4.jar;D:\apache-maven-3.6.1\mavenLocal\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;D:\apache-maven-3.6.1\mavenLocal\org\apache\tomcat\annotations-api\6.0.14\annotations-api-6.0.14.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="D:\JetBrains\Toolbox\apps\IDEA-U\ch-0\192.5728.98\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\examsystem"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire13009795883058905879\surefirebooter15662224151703748238.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.3+12-b304.10"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\apache-maven-3.6.1\mavenLocal"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.3"/>
+    <property name="user.dir" value="E:\examsystem"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.2" value="true"/>
+    <property name="java.library.path" value="D:\JetBrains\Toolbox\apps\IDEA-U\ch-0\192.5728.98\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\JetBrains\Toolbox\apps\IDEA-U\ch-0\192.5728.98\jbr\\bin;D:\JetBrains\Toolbox\apps\IDEA-U\ch-0\192.5728.98\jbr\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\mysql-5.7.25-winx64\bin;D:\apache-tomcat-9.0.16\bin;D:\apache-tomcat-8.5.43\bin;&quot;D:\Java\java1.8.0_201\jdk1.8.0_201\bin;D:\Java\java1.8.0_201\jdk1.8.0_201\jre\bin&quot;;D:\Java\java1.8.0_201\jdk1.8.0_201\bin;E:\Git\cmd;D:\apache-maven-3.6.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Android\SDK\tools;D:\Android\SDK\platform-tools;D:\nodejs\;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.3+12-b304.10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\apache-maven-3.6.1\mavenLocal"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.examSystem.TranslationApplicationTests" time="0.003">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController' defined in file [E:\examsystem\target\classes\com\examSystem\controller\LoginController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.http.HttpServletRequest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.http.HttpServletRequest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+</error>
+    <system-out><![CDATA[2020-01-30 17:25:04,089 -[DEBUG]  method:[com.zaxxer.hikari.HikariConfig (0ms)] - Driver class com.mysql.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@28c97a5
+2020-01-30 17:25:04,162 -[DEBUG]  method:[org.apache.ibatis.logging.LogFactory (73ms)] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-01-30 17:25:04,193 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (104ms)] - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2020-01-30 17:25:04,313 -[DEBUG]  method:[org.apache.ibatis.io.VFS (224ms)] - Class not found: org.jboss.vfs.VFS
+2020-01-30 17:25:04,314 -[DEBUG]  method:[org.apache.ibatis.io.JBoss6VFS (225ms)] - JBoss 6 VFS API is not available in this environment.
+2020-01-30 17:25:04,315 -[DEBUG]  method:[org.apache.ibatis.io.VFS (226ms)] - Class not found: org.jboss.vfs.VirtualFile
+2020-01-30 17:25:04,316 -[DEBUG]  method:[org.apache.ibatis.io.VFS (227ms)] - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-01-30 17:25:04,316 -[DEBUG]  method:[org.apache.ibatis.io.VFS (227ms)] - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-01-30 17:25:04,317 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (228ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity
+2020-01-30 17:25:04,317 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (228ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity
+2020-01-30 17:25:04,420 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (331ms)] - Reader entry: Answer.class
+2020-01-30 17:25:04,421 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (332ms)] - Reader entry: Arrange.class
+2020-01-30 17:25:04,421 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (332ms)] - Reader entry: Choice.class
+2020-01-30 17:25:04,422 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (333ms)] - Reader entry: Dchoice.class
+2020-01-30 17:25:04,423 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (334ms)] - Reader entry: Dshortanswer.class
+2020-01-30 17:25:04,424 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (335ms)] - Reader entry: Dtruefalse.class
+2020-01-30 17:25:04,424 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (335ms)] - Reader entry: Login.class
+2020-01-30 17:25:04,425 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (336ms)] - Reader entry: Manager.class
+2020-01-30 17:25:04,425 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (336ms)] - Reader entry: Result.class
+2020-01-30 17:25:04,426 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (337ms)] - Reader entry: School.class
+2020-01-30 17:25:04,427 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (338ms)] - Reader entry: ShortAnswer.class
+2020-01-30 17:25:04,427 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (338ms)] - Reader entry: Student.class
+2020-01-30 17:25:04,428 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (339ms)] - Reader entry: Teacher.class
+2020-01-30 17:25:04,428 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (339ms)] - Reader entry: Test.class
+2020-01-30 17:25:04,428 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (339ms)] - Reader entry: TrueFalse.class
+2020-01-30 17:25:04,429 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (340ms)] - Listing file:/E:/examsystem/target/classes/com/examSystem/entity
+2020-01-30 17:25:04,429 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (340ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Answer.class
+2020-01-30 17:25:04,429 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (340ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Answer.class
+2020-01-30 17:25:04,433 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (344ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;?	&amp#0;
+2020-01-30 17:25:04,436 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (347ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Arrange.class
+2020-01-30 17:25:04,436 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (347ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Arrange.class
+2020-01-30 17:25:04,438 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (349ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;?	&amp#0;&amp#8;&amp#0;l	&amp#0;&amp#8;&amp#0;m	&amp#0;&amp#8;&amp#0;n	&amp#0;&amp#8;&amp#0;o	&amp#0;&amp#8;&amp#0;p	&amp#0;&amp#8;&amp#0;q	&amp#0;&amp#8;&amp#0;r&amp#7;&amp#0;s
+2020-01-30 17:25:04,440 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (351ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Choice.class
+2020-01-30 17:25:04,440 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (351ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Choice.class
+2020-01-30 17:25:04,442 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (353ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;?	&amp#0;&amp#8;&amp#0;i	&amp#0;&amp#8;&amp#0;j	&amp#0;&amp#8;&amp#0;k	&amp#0;&amp#8;&amp#0;l	&amp#0;&amp#8;&amp#0;m	&amp#0;&amp#8;&amp#0;n	&amp#0;&amp#8;&amp#0;o&amp#7;&amp#0;p
+2020-01-30 17:25:04,444 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (355ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Dchoice.class
+2020-01-30 17:25:04,444 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (355ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Dchoice.class
+2020-01-30 17:25:04,446 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (357ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;?	&amp#0;&amp#8;&amp#0;i	&amp#0;&amp#8;&amp#0;j	&amp#0;&amp#8;&amp#0;k	&amp#0;&amp#8;&amp#0;l	&amp#0;&amp#8;&amp#0;m	&amp#0;&amp#8;&amp#0;n	&amp#0;&amp#8;&amp#0;o&amp#7;&amp#0;p
+2020-01-30 17:25:04,448 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (359ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Dshortanswer.class
+2020-01-30 17:25:04,448 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (359ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Dshortanswer.class
+2020-01-30 17:25:04,450 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (361ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;\	&amp#0;&amp#4;&amp#0;E	&amp#0;&amp#4;&amp#0;F	&amp#0;&amp#4;&amp#0;G&amp#7;&amp#0;H
+2020-01-30 17:25:04,451 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (362ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Dtruefalse.class
+2020-01-30 17:25:04,451 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (362ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Dtruefalse.class
+2020-01-30 17:25:04,452 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (363ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;\	&amp#0;&amp#4;&amp#0;E	&amp#0;&amp#4;&amp#0;F	&amp#0;&amp#4;&amp#0;G&amp#7;&amp#0;H
+2020-01-30 17:25:04,453 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (364ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Login.class
+2020-01-30 17:25:04,454 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (365ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Login.class
+2020-01-30 17:25:04,455 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (366ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;t	&amp#0;&amp#6;&amp#0;W	&amp#0;&amp#6;&amp#0;X	&amp#0;&amp#6;&amp#0;Y	&amp#0;&amp#6;&amp#0;Z	&amp#0;&amp#6;&amp#0;[&amp#7;&amp#0;\
+2020-01-30 17:25:04,456 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (367ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Manager.class
+2020-01-30 17:25:04,456 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (367ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Manager.class
+2020-01-30 17:25:04,457 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (368ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;P	&amp#0;&amp#3;&amp#0;<	&amp#0;&amp#3;&amp#0;=&amp#7;&amp#0;>
+2020-01-30 17:25:04,458 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (369ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Result.class
+2020-01-30 17:25:04,458 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (369ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Result.class
+2020-01-30 17:25:04,459 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (370ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;W	&amp#0;&amp#3;&amp#0;;	&amp#0;&amp#3;&amp#0;<&amp#7;&amp#0;=
+2020-01-30 17:25:04,461 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (372ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/School.class
+2020-01-30 17:25:04,461 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (372ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/School.class
+2020-01-30 17:25:04,462 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (373ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;\	&amp#0;&amp#4;&amp#0;E	&amp#0;&amp#4;&amp#0;F	&amp#0;&amp#4;&amp#0;G&amp#7;&amp#0;H
+2020-01-30 17:25:04,463 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (374ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/ShortAnswer.class
+2020-01-30 17:25:04,463 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (374ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/ShortAnswer.class
+2020-01-30 17:25:04,465 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (376ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;\	&amp#0;&amp#4;&amp#0;E	&amp#0;&amp#4;&amp#0;F	&amp#0;&amp#4;&amp#0;G&amp#7;&amp#0;H
+2020-01-30 17:25:04,466 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (377ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Student.class
+2020-01-30 17:25:04,466 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (377ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Student.class
+2020-01-30 17:25:04,467 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (378ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;h	&amp#0;&amp#5;&amp#0;N	&amp#0;&amp#5;&amp#0;O	&amp#0;&amp#5;&amp#0;P	&amp#0;&amp#5;&amp#0;Q&amp#7;&amp#0;R
+2020-01-30 17:25:04,468 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (379ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Teacher.class
+2020-01-30 17:25:04,469 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (380ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Teacher.class
+2020-01-30 17:25:04,470 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (381ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;h	&amp#0;&amp#5;&amp#0;N	&amp#0;&amp#5;&amp#0;O	&amp#0;&amp#5;&amp#0;P	&amp#0;&amp#5;&amp#0;Q&amp#7;&amp#0;R
+2020-01-30 17:25:04,471 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (382ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/Test.class
+2020-01-30 17:25:04,471 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (382ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/Test.class
+2020-01-30 17:25:04,472 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (383ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;?	&amp#0;&amp#7;&amp#0;`	&amp#0;&amp#7;&amp#0;a	&amp#0;&amp#7;&amp#0;b	&amp#0;&amp#7;&amp#0;c	&amp#0;&amp#7;&amp#0;d	&amp#0;&amp#7;&amp#0;e&amp#7;&amp#0;f
+2020-01-30 17:25:04,474 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (385ms)] - Find JAR URL: file:/E:/examsystem/target/classes/com/examSystem/entity/TrueFalse.class
+2020-01-30 17:25:04,475 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (386ms)] - Not a JAR: file:/E:/examsystem/target/classes/com/examSystem/entity/TrueFalse.class
+2020-01-30 17:25:04,476 -[DEBUG]  method:[org.apache.ibatis.io.DefaultVFS (387ms)] - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;4&amp#0;\	&amp#0;&amp#4;&amp#0;E	&amp#0;&amp#4;&amp#0;F	&amp#0;&amp#4;&amp#0;G&amp#7;&amp#0;H
+2020-01-30 17:25:04,478 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (389ms)] - Checking to see if class com.examSystem.entity.Answer matches criteria [is assignable to Object]
+2020-01-30 17:25:04,479 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (390ms)] - Checking to see if class com.examSystem.entity.Arrange matches criteria [is assignable to Object]
+2020-01-30 17:25:04,482 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (393ms)] - Checking to see if class com.examSystem.entity.Choice matches criteria [is assignable to Object]
+2020-01-30 17:25:04,483 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (394ms)] - Checking to see if class com.examSystem.entity.Dchoice matches criteria [is assignable to Object]
+2020-01-30 17:25:04,484 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (395ms)] - Checking to see if class com.examSystem.entity.Dshortanswer matches criteria [is assignable to Object]
+2020-01-30 17:25:04,485 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (396ms)] - Checking to see if class com.examSystem.entity.Dtruefalse matches criteria [is assignable to Object]
+2020-01-30 17:25:04,487 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (398ms)] - Checking to see if class com.examSystem.entity.Login matches criteria [is assignable to Object]
+2020-01-30 17:25:04,488 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (399ms)] - Checking to see if class com.examSystem.entity.Manager matches criteria [is assignable to Object]
+2020-01-30 17:25:04,490 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (401ms)] - Checking to see if class com.examSystem.entity.Result matches criteria [is assignable to Object]
+2020-01-30 17:25:04,491 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (402ms)] - Checking to see if class com.examSystem.entity.School matches criteria [is assignable to Object]
+2020-01-30 17:25:04,492 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (403ms)] - Checking to see if class com.examSystem.entity.ShortAnswer matches criteria [is assignable to Object]
+2020-01-30 17:25:04,493 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (404ms)] - Checking to see if class com.examSystem.entity.Student matches criteria [is assignable to Object]
+2020-01-30 17:25:04,494 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (405ms)] - Checking to see if class com.examSystem.entity.Teacher matches criteria [is assignable to Object]
+2020-01-30 17:25:04,495 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (406ms)] - Checking to see if class com.examSystem.entity.Test matches criteria [is assignable to Object]
+2020-01-30 17:25:04,496 -[DEBUG]  method:[org.apache.ibatis.io.ResolverUtil (407ms)] - Checking to see if class com.examSystem.entity.TrueFalse matches criteria [is assignable to Object]
+2020-01-30 17:25:04,498 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (409ms)] - Scanned package: 'com.examSystem.entity' for aliases
+2020-01-30 17:25:04,762 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (673ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\AnswerMapper.xml]'
+2020-01-30 17:25:04,793 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (704ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\ArrangeMapper.xml]'
+2020-01-30 17:25:04,818 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (729ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\ChoiceMapper.xml]'
+2020-01-30 17:25:04,840 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (751ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\DchoiceMapper.xml]'
+2020-01-30 17:25:04,858 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (769ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\DshortanswerMapper.xml]'
+2020-01-30 17:25:04,879 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (790ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\DtruefalseMapper.xml]'
+2020-01-30 17:25:04,909 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (820ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\LoginMapper.xml]'
+2020-01-30 17:25:04,922 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (833ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\ManagerMapper.xml]'
+2020-01-30 17:25:04,944 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (855ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\SchoolMapper.xml]'
+2020-01-30 17:25:04,955 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (866ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\ShortAnswerMapper.xml]'
+2020-01-30 17:25:04,969 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (880ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\StudentMapper.xml]'
+2020-01-30 17:25:04,991 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (902ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\TeacherMapper.xml]'
+2020-01-30 17:25:05,011 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (922ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\TestMapper.xml]'
+2020-01-30 17:25:05,037 -[DEBUG]  method:[org.mybatis.spring.SqlSessionFactoryBean (948ms)] - Parsed mapper file: 'file [E:\examsystem\target\classes\mapper\TrueFalseMapper.xml]'
+17:25:05.077 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@518cf84a] to prepare test instance [com.examSystem.TranslationApplicationTests@62e7dffa]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController' defined in file [E:\examsystem\target\classes\com\examSystem\controller\LoginController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.http.HttpServletRequest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 27 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.http.HttpServletRequest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 27 more
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger No Log4j 2 configuration file found. Using default configuration (logging only errors to the console), or user programmatically provided configurations. Set system property 'log4j2.debug' to show Log4j 2 internal initialization logging. See https://logging.apache.org/log4j/2.x/manual/configuration.html for instructions on how to configure Log4j 2
+log4j:ERROR Could not find value for key log4j.appender.D
+log4j:ERROR Could not instantiate appender named "D".
+log4j:ERROR Could not find value for key log4j.appender.E
+log4j:ERROR Could not instantiate appender named "E".
+]]></system-err>
+  </testcase>
+</testsuite>
